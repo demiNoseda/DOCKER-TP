@@ -25,10 +25,6 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
-# Docker
-**/Dockerfile
-docker-compose.yml
-docker-compose.override.yml
 
 # Backend
 backend/node_modules/
