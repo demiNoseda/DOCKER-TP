@@ -11,7 +11,7 @@ Este proyecto es una aplicación web sencilla desarrollada con React y Node.js, 
 
 ## Instalación
 
-### Prerrequisitos
+### Requisitos
 
 Asegúrate de tener Docker y Docker Compose instalados en tu sistema.
 
