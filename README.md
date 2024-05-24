@@ -1,6 +1,3 @@
-Aquí tienes el `README.md` actualizado con las nuevas instrucciones y detalles:
-
-```markdown
 # Docker TP
 
 Este proyecto es una aplicación web sencilla desarrollada con React y Node.js, que interactúa con una base de datos CouchDB. La aplicación permite insertar datos de forma manual o generar datos aleatorios, mostrando los resultados en pantalla.
