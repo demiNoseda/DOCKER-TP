@@ -1,6 +1,8 @@
 # Docker TP
 
-Este proyecto es una aplicación web sencilla desarrollada con React y Node.js, que interactúa con una base de datos CouchDB. La aplicación permite insertar datos de forma manual o generar datos aleatorios, mostrando los resultados en pantalla.
+![image](https://github.com/demiNoseda/docker-tp/assets/58298538/890fbffe-7e1e-4e1a-9a78-07a0540e430a)
+
+Este proyecto es una aplicación web sencilla desarrollada con React y Node.js, que interactúa con una base de datos CouchDB. La aplicación permite insertar datos de forma manual o generar datos aleatorios, mostrando los resultados en pantalla. Todo el proyecto está empaquetado utilizando Docker, lo que facilita la configuración y el despliegue mediante contenedores.
 
 ## Tabla de Contenidos
 - [Instalación](#instalación)
