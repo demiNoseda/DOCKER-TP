@@ -96,6 +96,12 @@ function App() {
                   WebkitTextFillColor: "transparent",
                   fontWeight: "bold",
                   textShadow: "2px 2px 2px rgba(0, 0, 0, 0.25)",
+                  fontSize: {
+                    xs: "2rem",
+                    sm: "3rem",
+                    md: "4rem",
+                    lg: "5rem",
+                  },
                 }}
               >
                 Docker TP
@@ -108,6 +114,13 @@ function App() {
                       component="h2"
                       gutterBottom
                       textAlign="center"
+                      sx={{
+                        fontSize: {
+                          xs: "1.5rem",
+                          sm: "2rem",
+                          md: "2.125rem",
+                        },
+                      }}
                     >
                       Ingrese algún dato
                     </Typography>
@@ -141,7 +154,18 @@ function App() {
                     </Button>
                   </Box>
                   <Box my={4}>
-                    <Typography variant="h3" component="h3" gutterBottom>
+                    <Typography
+                      variant="h3"
+                      component="h3"
+                      gutterBottom
+                      sx={{
+                        fontSize: {
+                          xs: "1.25rem",
+                          sm: "1.5rem",
+                          md: "1.75rem",
+                        },
+                      }}
+                    >
                       Resultado
                     </Typography>
                     <pre>{data ? JSON.stringify(data, null, 2) : "-"}</pre>

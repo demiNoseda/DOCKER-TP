@@ -7,7 +7,7 @@ const couchdbUrl =
   process.env.COUCHDB_URL || "http://admin:admin@localhost:5984";
 const nanoClient = nano(couchdbUrl);
 
-// Verify and create the database if it does not exist
+
 async function ensureDatabaseExists(dbName) {
   try {
     const dbList = await nanoClient.db.list();
@@ -22,7 +22,6 @@ async function ensureDatabaseExists(dbName) {
   }
 }
 
-// initializes the database.
 async function initializeDatabases() {
   const specialDbs = [
     "_users",
@@ -70,7 +69,7 @@ app.listen(3000, () => {
   console.log("Server is running on port 3000");
 });
 
-// Generates a random string of the specified length
+
 function generateRandomString(length) {
   const characters =
     "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";

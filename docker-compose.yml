@@ -5,6 +5,8 @@ services:
     image: couchdb:latest
     ports:
       - "5984:5984"
+    volumes:
+      - "couchdb_data:/opt/couchdb/data"
     environment:
       - COUCHDB_USER=admin
       - COUCHDB_PASSWORD=admin
@@ -32,3 +34,5 @@ services:
     depends_on:
       - backend
 
+volumes:
+  couchdb_data:
